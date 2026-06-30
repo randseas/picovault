@@ -2,14 +2,14 @@
 
 An offline hardware password and totp token manager based on the Raspberry Pi Pico 2. Designed for security-conscious users who prefer local and verifiable credential management.
 
--
+---
 
 ### Features
 - **Offline Security:** Your master password and totp secrets never leave the device.
 - **HID emulation:** Acts as a generic keyboard to type passwords and totp codes directly into your device.
 - **Navigation:** 3-button simple control (`Up`, `Down`, `hold 3s = Enter`/`1 click = Escape`).
 
---
+---
 
 ### Bill of Materials
 | Component | Amount | Description |
@@ -42,11 +42,12 @@ The `3d/` directory includes the necessary files for printing the enclosure.
 ---
 
 ### Building
+
 1. **Toolchain:** Install Rust (`rustup`).
 2. **Environment:** Setup the `thumbv8m.main-none-eabihf` target.
 3. **Compile:**
 ```bash
-   cargo build --release
+cargo build --release
 ```
 4. **Flash:** Copy the generated .uf2 file to your Pico 2 in Bootloader mode.
 
@@ -66,4 +67,5 @@ If you have a suggestion that would make this project better, please fork the re
 ---
 
 ### License
+
 Distributed under the GPLv3 License. See `LICENSE` for more information.
