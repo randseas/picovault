@@ -32,9 +32,9 @@ An offline hardware password and totp token manager based on the Raspberry Pi Pi
 | :--- | :--- | :--- |
 | `GP4` | `SDA` | `MOSI` |
 | `GP5` | `SCL` | `SCK` |
-| `GP6` | `Button 1 (Up)` | `` |
-| `GP7` | `Button 2 (Down)` | `` |
-| `GP8` | `Button 3 (Enter)` | `` |
+| `GP6` | `Button 1 (Up)` | - |
+| `GP7` | `Button 2 (Down)` | - |
+| `GP8` | `Button 3 (Enter)` | - |
 | `GP9` | - | `DC (Data/Command)` |
 | `GP10`| - | `CS (Chip Select)` |
 
