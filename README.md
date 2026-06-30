@@ -44,9 +44,9 @@ An offline hardware password and totp token manager based on the Raspberry Pi Pi
 1. **Toolchain:** Install Rust (`rustup`).
 2. **Environment:** Setup the `thumbv8m.main-none-eabihf` target.
 3. **Compile:**
-   ```bash
+```bash
    cargo build --release
-   ```
+```
 4. **Flash:** Copy the generated .uf2 file to your Pico 2 in Bootloader mode.
 
 ---
