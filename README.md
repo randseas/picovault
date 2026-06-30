@@ -2,14 +2,14 @@
 
 An offline hardware password and totp token manager based on the Raspberry Pi Pico 2. Designed for security-conscious users who prefer local and verifiable credential management.
 
----
+-
 
 ### Features
 - **Offline Security:** Your master password and totp secrets never leave the device.
 - **HID emulation:** Acts as a generic keyboard to type passwords and totp codes directly into your device.
 - **Navigation:** 3-button simple control (`Up`, `Down`, `hold 3s = Enter`/`1 click = Escape`).
 
----
+--
 
 ### Bill of Materials
 | Component | Amount | Description |
