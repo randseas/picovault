@@ -7,22 +7,23 @@ An offline hardware password and totp token manager based on the Raspberry Pi Pi
 ### Features
 - **Offline Security:** Your master password and totp secrets never leave the device.
 - **HID emulation:** Acts as a generic keyboard to type passwords and totp codes directly into your device.
-- **Navigation:** 3-button simple control (Up, Down, Enter/Esc).
+- **Navigation:** 3-button simple control (`Up`, `Down`, `hold 3s = Enter`/`1 click = Escape`).
 
 ---
 
 ### Bill of Materials
-| Component | Notes |
-| :--- | :--- |
-| **Raspberry Pi Pico 2** | The core controller RP2350. |
-| **OLED Display** | 0.96 inch monochrome OLED (I2C or SPI interface can be selected inside code). |
-| **Buttons** | 3x Tactile momentary switches. |
-| **Connectivity** | USB Micro-B cable. |
+| Component | Amount | Description |
+| :--- | :--- | :--- |
+| **Raspberry Pi Pico 2** | `1x` | The core controller RP2350. |
+| **OLED Display** | `1x` | 128x64 monochrome OLED (I2C or SPI interface can be selected inside `Cargo.toml`). |
+| **Buttons** | `3x` | Tactile momentary switches. |
+| **Connectivity** | `1x` | USB Micro-B cable. |
 
 ---
 
-### 3D-printed Shell
-3D models can be found there: `/3d/case.stl` / `/3d/case.step`
+### 3D-printed Enclosure
+
+The `3d/` directory includes the necessary files for printing the enclosure.
 
 ---
 
